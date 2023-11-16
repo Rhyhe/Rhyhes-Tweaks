@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "woodtoolcasting",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Wooden Tool Casting",
+  "description": "Adds new 5 new recipes to give your wooden tools one final use!",
   "authors": [
-    "Turnip Labs"
+    "Rhyhe"
   ],
   "contact": {
     "homepage": "",
@@ -18,11 +18,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-        "turniplabs.examplemod.ExampleMod"
+      "turniplabs.woodtoolcasting.WoodToolCasting"
     ]
   },
   "mixins": [
-      "examplemod.mixins.json"
+		"woodtoolcasting.mixins.json"
   ],
 
   "depends": {
