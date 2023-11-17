@@ -1,4 +1,3 @@
-# Wooden Tool Casting
-*Weird name, I know*
+# Wooden Tool Upgrade
 
 This mod allows you to upgrade your wooden tools to stone!

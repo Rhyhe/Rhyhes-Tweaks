@@ -14,7 +14,7 @@ public class WoodToolCasting implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
     @Override
     public void onInitialize() {
-
+		LOGGER.info("Wood Tool Casting mod initialized.");
 		RecipeHelper.craftingManager.addRecipe(new ItemStack(Item.toolPickaxeStone, 1), true, false, new Object[]{
 			"CCC",
 			" P ",
@@ -50,7 +50,5 @@ public class WoodToolCasting implements ModInitializer {
 			'C', Block.cobbleStone,
 			'O', Item.toolHoeWood
 		});
-
-		LOGGER.info("Wood Tool Casting mod initialized.");
 	}
 }
