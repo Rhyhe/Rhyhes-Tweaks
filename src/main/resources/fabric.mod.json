@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "woodtoolcasting",
+  "id": "rhyhetweaks",
   "version": "${version}",
 
-  "name": "Wooden Tool Casting",
-  "description": "Adds new 5 new recipes to give your wooden tools one final use!",
+  "name": "Rhyhe's Tweaks",
+  "description": "Adds a few nice things I wanted in the game!",
   "authors": [
     "Rhyhe"
   ],
@@ -18,11 +18,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "turniplabs.woodtoolcasting.WoodToolCasting"
+			"rhyhe.rhyhetweaks.RhyheTweaks"
     ]
   },
   "mixins": [
-		"woodtoolcasting.mixins.json"
+		"rhyhetweaks.mixins.json"
   ],
 
   "depends": {

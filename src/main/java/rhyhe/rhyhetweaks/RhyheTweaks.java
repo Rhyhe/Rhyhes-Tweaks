@@ -1,4 +1,4 @@
-package turniplabs.woodtoolcasting;
+package rhyhe.rhyhetweaks;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.core.block.Block;
@@ -9,8 +9,8 @@ import org.slf4j.LoggerFactory;
 import turniplabs.halplibe.helper.RecipeHelper;
 
 
-public class WoodToolCasting implements ModInitializer {
-    public static final String MOD_ID = "Wood_Tool_Casting";
+public class RhyheTweaks implements ModInitializer {
+    public static final String MOD_ID = "rhyhetweaks";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
     @Override
     public void onInitialize() {
@@ -51,6 +51,6 @@ public class WoodToolCasting implements ModInitializer {
 			'O', Item.toolHoeWood
 		});
 
-		LOGGER.info("Wood Tool Casting mod initialized.");
+		LOGGER.info("Rhyhe's Tweaks initialized.");
 	}
 }
