@@ -1,3 +1,6 @@
-# Wooden Tool Upgrade
+# Rhyhe's Tweaks
 
-This mod allows you to upgrade your wooden tools to stone!
+This mod adds various small features I like.
+
+Currently in mod
+- upgrade your wooden tools to stone!
