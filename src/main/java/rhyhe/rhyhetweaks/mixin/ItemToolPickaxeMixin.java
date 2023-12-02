@@ -39,6 +39,5 @@ public class ItemToolPickaxeMixin {
         }
 
         return true;
-
     }
 }
