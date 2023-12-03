@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "rhyhetweaks",
-  "version": "${version}",
+  "version": "1.1.0",
 
   "name": "Rhyhe's Tweaks",
   "description": "Adds a few nice things I wanted in the game!",
   "authors": [
     "Rhyhe"
   ],
+	"icon": "icon.png",
   "contact": {
     "homepage": "",
     "sources": ""
