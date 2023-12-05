@@ -11,6 +11,8 @@ public class RhyheTweaks implements ModInitializer {
     public void onInitialize() {
 
 		ModRecipes.initialize();
+		SteeledGoldenRecipes.initialize();
+		WoodenToolCasting.initialize();
 		ModItems.initialize();
 
 		LOGGER.info("Rhyhe's Tweaks initialized.");
